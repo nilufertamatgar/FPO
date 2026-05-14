@@ -1,0 +1,70 @@
+defaults:
+ - _self_
+ - model
+
+data:
+  # split-specific parsed data paths (to be used after dataset logic update)
+  train_data_path: "/dapustor/nilufer/ADFLIP/dataset/train_parsed"
+  valid_data_path: "/dapustor/nilufer/ADFLIP/dataset/valid_parsed"
+  test_data_path: "/dapustor/nilufer/ADFLIP/dataset/test_parsed"
+
+  # fallback single path (will be overridden by split-specific paths once logic is updated)
+  data_path: "/dapustor/nilufer/ADFLIP/dataset/train_parsed"
+
+  # new cluster files
+  cluster_path: "/dapustor/nilufer/ADFLIP/data/cluster/cluster_to_pdb_chain.pkl"
+  train_cluster: "/dapustor/nilufer/ADFLIP/data/cluster/train_clusters.txt"
+  validation_cluster: "/dapustor/nilufer/ADFLIP/data/cluster/valid_clusters.txt"
+
+
+  parse_atoms_with_zero_occupancy: True
+  max_num_residues: 512
+  max_num_atoms: 4096
+  cut_position_type: ligand
+  random_seed: 13456
+  use_cache: True
+  include_nonstd_amino_acids: True
+
+
+zoidberg_denoiser:
+  name: zoidberg
+  hidden_dim: 128
+  num_layers: 3
+  num_positional_embeddings: 16
+  num_rbf: 16
+  k_neighbors: 32
+  backbone_diheral: True
+  dropout: 0.1
+  augment_eps: 0.1
+  num_heads: 4
+  update_atom: True
+  num_decoder_blocks: 3
+  num_tfmr_heads: 4
+  num_tfmr_layers: 2
+  number_ligand_atom: 25
+  mpnn_cutoff: True
+  interaction_loss_coeff: 1.0
+  output_dim: 33
+
+training:
+  dataset: pdb
+  batch_size: 64
+  gradient_accumulate_every: 1
+  train_lr: 0.001
+  weight_decay: 0.01
+  max_epochs: 600
+  ema: True
+  clip_grad_norm: 1.0
+  ema_beta: 0.999
+  ema_update_every: 10
+  dataparallel: False
+  evaluate_step: 1000
+  load_weight: False
+  label_smoothing: True
+
+wandb:
+  use: True
+  name: discrete_flow
+  project: ADFILP
+  run_name: ADFLIP_v1_final
+  team: nilufer2703-agency-for-science-technology-and-research

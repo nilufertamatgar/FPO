@@ -1,0 +1,5 @@
+train_clusters	34750
+valid_clusters	2610
+total_clusters	37360
+total_members	511230
+overlap_members	0

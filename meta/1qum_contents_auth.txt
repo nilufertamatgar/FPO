@@ -1,0 +1,1066 @@
+Loaded: /dapustor/nilufer/ADFLIP/dataset/assembly/test_metal_parsed/qu/1qum.npz
+Keys: ['residue_token', 'residue_index', 'residue_atom_index', 'occupancy', 'bfactor', 'chain_id', 'position', 'element_index', 'is_ion', 'is_protein', 'is_nucleotide', 'is_center', 'is_backbone', 'backbone_mask', 'not_pad_mask', 'interact_non_protein_res', 'interact_ion_res', 'interact_nucleotide_res', 'interact_molecule_res', 'is_mask', 'noisy_residue_token', 'time_step']
+
+Key: residue_token
+  type: <class 'numpy.ndarray'>
+  dtype: int64
+  shape: (2696,)
+  preview: [27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 26 26 26 26 26
+ 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27
+ 27 27 27 27 27 27 27 27 27 27 27 27 28 28 28 28 28 28 28 28 28 28 28 28
+ 28 28 28 28 28 28 28 28 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26
+ 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 22 22
+ 22 22 22 22 22 22 22 22 22 22 26 26 26 26 26 26 26 26 26 26 26 26 26 26
+ 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27
+ 27 27 27 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25
+ 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27
+ 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 25 25 25 25 25 25 25
+ 25 25 25 25 25 25 25 25 25 25 25 25 25 25 28 28 28 28 28 28 28 28 28 28
+ 28 28 28 28 28 28 28 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26
+ 26 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27
+ 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 26 26 26 26
+ 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27
+ 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27
+ 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27
+ 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27
+ 27 27 27 27 27 27 27 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25
+ 25 25 25 25 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27
+ 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 26 26 26
+ 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 14 14 14 14 14 14 14 14
+ 13 13 13 13 13 13 13 13 13 20 20 20 20 20 20 20 20 20 20 20 20 11 11 11
+ 11 11 11 11 11  9  9  9  9  2  2  2  2  2 10 10 10 10 10 10 10 10 10 10
+ 21 21 21 21 21 21 21 17 17 17 17 17 17  2  2  2  2  2  2  2  2  2  2  9
+  9  9  9  9  9  9  9 12 12 12 12 12 12 12 12  2  2  2  2  2  4  4  4  4
+  4  4  4  4  2  2  2  2  2  2  2  2  2  2 11 11 11 11 11 11 11 11  3  3
+  3  3  3  3  3  3  3  3  3  2  2  2  2  2  2  2  2  2  2  8  8  8  8  8
+  8  8  8  8 11 11 11 11 11 11 11 11  5  5  5  5  5  5  5  5  2  2  2  2
+  2 18 18 18 18 18 18 18  2  2  2  2  2 15 15 15 15 15 15 15 15 15 15 15
+  2  2  2  2  2 12 12 12 12 12 12 12 12 15 15 15 15 15 15 15 15 15 15 15
+ 18 18 18 18 18 18 18 13 13 13 13 13 13 13 13 13  4  4  4  4  4  4  4  4
+  7  7  7  7  7  7  7  7  7  3  3  3  3  3  3  3  3  3  3  3  7  7  7  7
+  7  7  7  7  7 19 19 19 19 19 19 19 19 19 19 19 19 19 19  3  3  3  3  3
+  3  3  3  3  3  3  2  2  2  2  2  2  2  2  2  2 16 16 16 16 16 16 16 12
+ 12 12 12 12 12 12 12 18 18 18 18 18 18 18 18 18 18 18 18 18 18  7  7  7
+  7  7  7  7  7  7 18 18 18 18 18 18 18 11 11 11 11 11 11 11 11  5  5  5
+  5  5  5  5  5  8  8  8  8  8  8  8  8  8 15 15 15 15 15 15 15 15 15 15
+ 15 13 13 13 13 13 13 13 13 13  2  2  2  2  2  2  2  2  2  2  6  6  6  6
+  6  6  8  8  8  8  8  8  8  8  8 13 13 13 13 13 13 13 13 13 20 20 20 20
+ 20 20 20 20 20 20 20 20 10 10 10 10 10 10 10 10 10 10 20 20 20 20 20 20
+ 20 20 20 20 20 20 18 18 18 18 18 18 18 17 17 17]
+
+Key: residue_index
+  type: <class 'numpy.ndarray'>
+  dtype: int64
+  shape: (2696,)
+  preview: [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1
+  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2
+  2  2  2  2  2  2  2  2  2  2  2  2  3  3  3  3  3  3  3  3  3  3  3  3
+  3  3  3  3  3  3  3  3  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4
+  4  4  4  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  6  6
+  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6
+  6  6  6  6  6  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7
+  7  7  7  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8
+  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9 10 10 10 10 10
+ 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11
+ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 12 12 12 12 12 12 12 12 12
+ 12 12 12 12 12 12 12 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13
+ 13 13 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14
+ 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 16 16 16 16
+ 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17
+ 17 17 17 17 17 17 17 17 17 17 17 17 17 18 18 18 18 18 18 18 18 18 18 18
+ 18 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 19 19
+ 19 19 19 19 19 19 19 19 19 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+ 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21
+ 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 23
+ 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 24 24 24
+ 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 25 25 25 25 25 25 25
+ 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27 27 27 28 28 28
+ 28 28 28 28 28 29 29 29 29 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31
+ 32 32 32 32 32 32 32 33 33 33 33 33 33 34 34 34 34 34 35 35 35 35 35 36
+ 36 36 36 37 37 37 37 38 38 38 38 38 38 38 38 39 39 39 39 39 40 40 40 40
+ 40 40 40 40 41 41 41 41 41 42 42 42 42 42 43 43 43 43 43 43 43 43 44 44
+ 44 44 44 44 44 44 44 44 44 45 45 45 45 45 46 46 46 46 46 47 47 47 47 47
+ 47 47 47 47 48 48 48 48 48 48 48 48 49 49 49 49 49 49 49 49 50 50 50 50
+ 50 51 51 51 51 51 51 51 52 52 52 52 52 53 53 53 53 53 53 53 53 53 53 53
+ 54 54 54 54 54 55 55 55 55 55 55 55 55 56 56 56 56 56 56 56 56 56 56 56
+ 57 57 57 57 57 57 57 58 58 58 58 58 58 58 58 58 59 59 59 59 59 59 59 59
+ 60 60 60 60 60 60 60 60 60 61 61 61 61 61 61 61 61 61 61 61 62 62 62 62
+ 62 62 62 62 62 63 63 63 63 63 63 63 63 63 63 63 63 63 63 64 64 64 64 64
+ 64 64 64 64 64 64 65 65 65 65 65 66 66 66 66 66 67 67 67 67 67 67 67 68
+ 68 68 68 68 68 68 68 69 69 69 69 69 69 69 70 70 70 70 70 70 70 71 71 71
+ 71 71 71 71 71 71 72 72 72 72 72 72 72 73 73 73 73 73 73 73 73 74 74 74
+ 74 74 74 74 74 75 75 75 75 75 75 75 75 75 76 76 76 76 76 76 76 76 76 76
+ 76 77 77 77 77 77 77 77 77 77 78 78 78 78 78 79 79 79 79 79 80 80 80 80
+ 80 80 81 81 81 81 81 81 81 81 81 82 82 82 82 82 82 82 82 82 83 83 83 83
+ 83 83 83 83 83 83 83 83 84 84 84 84 84 84 84 84 84 84 85 85 85 85 85 85
+ 85 85 85 85 85 85 86 86 86 86 86 86 86 87 87 87]
+
+Key: residue_atom_index
+  type: <class 'numpy.ndarray'>
+  dtype: int64
+  shape: (2696,)
+  preview: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18  0  1  2  3  4
+  5  6  7  8  9 10 11 12 13 14 15 16 17 18  0  1  2  3  4  5  6  7  8  9
+ 10 11 12 13 14 15 16 17 18 19 20 21  0  1  2  3  4  5  6  7  8  9 10 11
+ 12 13 14 15 16 17 18 19  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+ 16 17 18  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18  0  1
+  2  3  4  5  6  7  8  9 10 11  0  1  2  3  4  5  6  7  8  9 10 11 12 13
+ 14 15 16 17 18  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18
+ 19 20 21  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18  0  1  2  3  4
+  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21  0  1  2  3  4  5  6
+  7  8  9 10 11 12 13 14 15 16 17 18 19 20  0  1  2  3  4  5  6  7  8  9
+ 10 11 12 13 14 15 16  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16
+ 17 18  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19  0  1  2  3
+  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18  0  1  2  3  4  5  6  7  8
+  9 10 11 12 13 14 15 16 17 18 19 20 21  0  1  2  3  4  5  6  7  8  9 10
+ 11 12 13 14 15 16 17 18 19 20 21  0  1  2  3  4  5  6  7  8  9 10 11 12
+ 13 14 15 16 17 18 19 20 21  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14
+ 15 16 17 18 19 20 21  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16
+ 17 18 19 20  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18  0
+  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21  0  1  2
+  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18  0  1  2  3  4  5  6  7
+  0  1  2  3  4  5  6  7  8  0  1  2  3  4  5  6  7  8  9 10 11  0  1  2
+  3  4  5  6  7  0  1  2  3  0  1  2  3  4  0  1  2  3  4  5  6  7  8  9
+  0  1  2  3  4  5  6  0  1  2  3  4  5  0  1  2  3  4  0  1  2  3  4  0
+  1  2  3  0  1  2  3  0  1  2  3  4  5  6  7  0  1  2  3  4  0  1  2  3
+  4  5  6  7  0  1  2  3  4  0  1  2  3  4  0  1  2  3  4  5  6  7  0  1
+  2  3  4  5  6  7  8  9 10  0  1  2  3  4  0  1  2  3  4  0  1  2  3  4
+  5  6  7  8  0  1  2  3  4  5  6  7  0  1  2  3  4  5  6  7  0  1  2  3
+  4  0  1  2  3  4  5  6  0  1  2  3  4  0  1  2  3  4  5  6  7  8  9 10
+  0  1  2  3  4  0  1  2  3  4  5  6  7  0  1  2  3  4  5  6  7  8  9 10
+  0  1  2  3  4  5  6  0  1  2  3  4  5  6  7  8  0  1  2  3  4  5  6  7
+  0  1  2  3  4  5  6  7  8  0  1  2  3  4  5  6  7  8  9 10  0  1  2  3
+  4  5  6  7  8  0  1  2  3  4  5  6  7  8  9 10 11 12 13  0  1  2  3  4
+  5  6  7  8  9 10  0  1  2  3  4  0  1  2  3  4  0  1  2  3  4  5  6  0
+  1  2  3  4  5  6  7  0  1  2  3  4  5  6  0  1  2  3  4  5  6  0  1  2
+  3  4  5  6  7  8  0  1  2  3  4  5  6  0  1  2  3  4  5  6  7  0  1  2
+  3  4  5  6  7  0  1  2  3  4  5  6  7  8  0  1  2  3  4  5  6  7  8  9
+ 10  0  1  2  3  4  5  6  7  8  0  1  2  3  4  0  1  2  3  4  0  1  2  3
+  4  5  0  1  2  3  4  5  6  7  8  0  1  2  3  4  5  6  7  8  0  1  2  3
+  4  5  6  7  8  9 10 11  0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  5
+  6  7  8  9 10 11  0  1  2  3  4  5  6  0  1  2]
+
+Key: occupancy
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: (2696,)
+  preview: [1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  0.5 1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  0.5 0.5 0.5 0.5 0.5 1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1. ]
+
+Key: bfactor
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: (2696,)
+  preview: [ 58.08  45.54  42.48  41.75  44.72  50.34  39.93  43.52  36.31  38.63
+  41.99  36.98  31.86  39.39  37.26  40.62  39.27  39.9   37.8   57.2
+  67.79  60.06  51.1   41.97  46.58  46.02  43.08  49.98  36.68  42.87
+  43.07  39.06  47.99  36.55  40.34  40.17  36.96  39.83  55.23  62.02
+  41.08  53.79  44.92  48.12  45.83  47.39  54.87  44.72  45.96  36.96
+  32.86  32.81  38.06  37.58  33.82  36.35  32.21  34.    33.04  40.47
+  54.78  56.31  49.06  49.69  35.6   36.6   39.11  39.19  38.54  32.64
+  38.51  40.52  32.41  34.73  33.75  36.25  41.19  32.53  37.37  37.23
+  39.15  42.93  38.78  37.36  33.42  32.68  33.84  31.32  29.23  26.9
+  32.81  31.05  29.57  36.12  32.58  36.53  32.87  35.19  30.16  27.8
+  28.56  27.7   27.32  26.08  24.79  30.4   25.91  27.36  31.1   26.48
+  29.1   27.14  31.93  29.49  32.22  34.38  33.57  28.4   26.24  26.23
+  24.98  30.09  23.99  27.3   24.86  24.44  25.9   24.96  25.86  26.2
+  33.16  43.03  45.52  34.03  28.4   28.2   30.38  28.36  28.68  41.53
+  39.57  29.74  36.77  40.44  38.11  35.62  51.67  35.62  32.1   32.3
+  35.2   32.42  32.95  36.12  37.18  37.76  39.45  45.14  30.6   32.59
+  33.86  36.98  37.97  35.05  38.79  43.03  42.71  43.88  41.45  43.37
+  36.58  42.78  41.67  36.89  43.43  47.16  48.84  49.91  50.72  70.65
+  41.07  40.34  43.5   45.22  44.12  44.02  38.82  39.01  46.23  51.72
+  53.89  46.13  75.22  56.11  65.41  77.34  75.88  71.26  66.75  85.91
+ 105.23  81.63  70.04  58.05  60.74  62.02  51.39  52.61  64.74  50.43
+  51.26 106.92 105.08 105.31 112.15 114.99 119.66 114.88 132.69 154.92
+ 120.37 109.01  90.33  87.2   83.3   79.01  76.31  75.73  70.72  75.21
+  77.36  69.55  76.87 153.84 153.78 153.92 157.91 157.91 157.91 157.91
+ 157.91 157.91 157.91 157.91 157.91 157.91 157.91 157.91 157.91 157.91
+ 157.91 157.91 157.91 157.91 115.45 128.72 133.27 132.17 139.73 146.41
+ 136.98 130.08 119.76 117.37 121.86 112.15 102.62  66.38 105.83  82.5
+ 113.16 146.62 148.87 150.58 148.   136.63 126.82 122.94 124.63 124.4
+ 122.49 120.2  115.11 111.92 115.22 109.6  111.01 115.51 112.33 113.67
+ 123.52 127.46 122.92 123.94 114.19 109.43 106.66 109.78 116.59 105.18
+  98.21  81.62  71.72  65.42  66.55  62.04  49.17  64.93  69.25  66.87
+  67.22  70.39 118.53 121.79 130.66 117.71 106.02  99.64  98.06  99.04
+ 105.24  95.9   94.04  84.38  73.42  78.87  63.92  65.39  55.54  76.44
+  67.58  83.99 106.58 118.06 109.22 104.03  88.13  64.26  51.84  51.99
+  49.02  49.86  46.24  48.13  47.78  46.86  46.76  52.17  55.16  52.98
+  45.08  63.02  73.64  61.65  57.54  52.83  51.12  55.07  46.52  53.44
+  51.8   44.2   42.7   42.76  44.11  36.21  37.08  43.79  39.85  36.58
+  41.59  40.83  40.43  56.4   49.57  64.59  54.51  61.24  55.33  48.6
+  69.22  75.06  59.12  59.64  75.68  74.21  70.63  84.27  97.71  99.34
+ 106.1  106.63 113.6   99.51  87.59  72.43  51.18  66.42  67.58  55.12
+  46.92  40.87  47.62  63.91  45.07  34.62  35.88  35.59  38.79  33.94
+  34.71  34.6   31.13  33.42  31.74  30.38  30.77  65.63  48.51  54.41
+  58.84  56.77  47.59  49.93  47.8   43.97  45.52  44.29  42.6   43.87
+  39.58  41.19  38.29  35.81  32.92  34.63  37.59  38.02  46.43  47.93
+  62.1   50.13  54.31  54.52  46.51  36.26  32.13  34.58  35.58  36.48
+  32.85  43.    30.65  33.68  43.05  38.37  32.29  32.52  31.06  30.73
+  33.62  45.12  36.16  35.2   39.34  33.28  35.68  30.12  39.68  36.97
+  44.17  35.39  41.47  36.57  29.99  30.08  34.22  30.    28.6   44.06
+  42.92  40.24  39.88  44.48  45.03  43.96  49.93  62.    44.3   47.27
+  34.8   36.47  37.07  33.68  37.55  35.27  35.87  39.1   44.25  36.88
+  32.35  67.98  64.76  61.1   75.69  69.45  62.2   52.51  60.26  81.69
+  54.64  47.44  40.35  30.61  41.62  34.84  37.31  41.11  33.73  37.05
+  36.52  33.86  30.42  35.34  41.2   53.58 135.66  62.94  28.65  32.23
+  35.04  32.5   30.23  26.96  28.06  29.44  33.11  26.59  27.52  26.55
+  27.86  31.23  37.33  32.83  38.96  37.17  39.75  52.11  59.7   25.19
+  28.06  29.14  27.48  26.3   28.71  25.54  39.06  26.08  23.9   24.27
+  23.64  25.42  22.19  21.12  23.13  22.04  21.01  22.86  25.18  28.15
+  23.9   24.98  25.43  30.91  27.24  24.99  27.25  28.83  25.26  26.7
+  26.79  25.95  32.78  27.35  29.35  27.53  31.84  32.43  56.12  25.48
+  31.72  32.    38.97  35.82  33.31  36.29  37.18  32.44  36.89  30.93
+  33.81  47.31  38.84  35.37  38.3   36.01  32.39  30.29  26.85  27.6
+  28.87  33.38  30.61  33.1   28.28  29.02  30.29  30.1   30.84  26.72
+  30.35  28.85  31.31  29.93  31.62  37.97  45.8   34.37  29.38  25.06
+  27.94  27.74  25.97  27.97  28.09  27.93  30.37  33.7   27.09  29.99
+  34.83  28.97  30.76  28.88  30.93  35.31  31.21  27.05  28.99  33.58
+  31.21  33.95  31.87  36.6   35.15  30.34  45.66  28.86  27.    30.22
+  29.66  26.84  30.    29.49  28.39  33.07  28.14  27.87  35.78  39.01
+  37.44  34.76  49.2   63.97  64.77  53.05  29.28  28.26  28.1   32.79
+  30.52  27.44  30.97  30.33  27.34  27.16  28.5   29.62  34.34  57.76
+  56.55  67.46  25.    25.09  29.29  27.97  27.71  27.41  25.98  28.81
+  29.45  30.48  27.91  31.59  25.08  25.29  23.1   24.38  22.    22.87
+  22.37  24.03  23.27  25.05  28.2   26.86  27.28  25.64  25.78  24.78
+  25.28  23.99  21.51  25.17  26.67  24.29  23.24  23.23  25.33  24.53
+  28.15  26.13  25.13  23.85  24.48  30.16  31.73  27.26  24.11  29.79
+  27.5   28.21  24.17  27.32  27.2   29.63  36.3   34.69  33.54  37.73
+  28.72  39.97  39.44  39.36  33.24  34.75  37.33  42.09  45.11  57.88
+  37.81  34.33  30.66  30.8   30.91  37.23  34.75  35.04  30.14  32.8
+  31.7   34.43  31.77  30.63  34.42  36.68  30.1   32.67  35.34  38.31
+  38.59  35.53  38.73  52.19  64.59  62.48  58.85  40.73  34.24  47.5
+  50.44  40.13  43.68  43.04  52.6   56.26  62.56  41.3   47.92  56.43
+  61.47  48.3   33.36  39.09  41.3   44.97  43.    44.17  39.06  41.61
+  39.82  58.57  65.5   53.68  52.73  77.17  84.01  85.95  89.31  96.82
+ 109.95 109.26  39.21  38.64  38.75  46.13  41.76  48.48  41.08  51.9
+  45.82  44.68  52.14  44.99  41.18  38.47  48.58  44.17  47.26  34.2
+  34.92  37.25  36.91  36.89  38.69  35.93  35.51  43.97  49.81  46.32
+  37.49  51.01  39.91  47.12  34.6   31.83  34.78  41.05  43.14  45.9
+  39.47  32.69  33.45  31.58  39.79  41.    52.41  66.43  60.17  43.6
+  32.22  32.97  29.99  33.74  31.59  40.82  37.06  27.63  29.78  29.09
+  34.4   34.34  34.44  34.63  39.96  29.65  27.99  27.68  33.08  27.19
+  31.38  36.26  34.63  32.56  32.68  30.63  31.99  35.29  40.04  50.05
+  57.47  51.16  30.66  29.65  32.18  32.68  27.05  25.83  27.1   27.09
+  29.06  29.7   25.13  32.45  27.31  29.99  29.55  31.17  34.13  31.63
+  31.65  46.97  31.49  36.5   35.16  31.96  33.62  30.15  29.8   32.04
+  36.6   29.73  30.62  28.76  35.19  34.75  27.89  31.24  37.01  33.77
+  26.84  39.46  38.52  45.68  66.42  83.62  86.33  33.81  36.21  36.9
+  42.63  38.86  38.54  37.55  43.36  52.64  33.56  33.93  30.45  33.7
+  33.94  34.18  35.02  34.29  38.02  36.43  41.22  64.99  34.15  40.14
+  31.77  37.39  43.01  52.66  61.66  52.85  60.54  55.89  32.94  30.69
+  34.42  34.74  29.8   24.86  25.28  25.59  25.99  27.28  29.66  31.22
+  31.13  30.1   25.59  28.56  36.37  37.16  31.28  28.33  28.09  26.89]
+
+Key: chain_id
+  type: <class 'numpy.ndarray'>
+  dtype: int64
+  shape: (2696,)
+  preview: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3]
+
+Key: position
+  type: <class 'numpy.ndarray'>
+  dtype: float32
+  shape: (2696, 3)
+  preview: [[135.788  15.403   6.049]
+ [136.668  16.535   6.043]
+ [135.993  17.666   5.312]
+ ...
+ [ 99.959  -1.98   25.467]
+ [101.24   -2.299  24.796]
+ [101.062  -2.684  23.343]]
+
+Key: element_index
+  type: <class 'numpy.ndarray'>
+  dtype: int64
+  shape: (2696,)
+  preview: [ 7  5  5  7  5  7  5  5  6  5  6  5  5  7  6  5  6  6  5 14  7  7  7  5
+  5  7  5  7  5  5  6  5  7  6  5  6  5  5 14  7  7  7  5  5  7  5  7  5
+  5  6  5  6  5  5  7  6  5  6  6  5 14  7  7  7  5  5  7  5  7  5  5  6
+  5  7  6  5  7  5  5  5 14  7  7  7  5  5  7  5  7  5  5  6  5  7  6  5
+  6  5  5 14  7  7  7  5  5  7  5  7  5  5  6  5  7  6  5  6  5  5  7 14
+  7  7  7  5  5  5  7  5  5  7 14  7  7  7  5  5  7  5  7  5  5  6  5  7
+  6  5  6  5  5 14  7  7  7  5  5  7  5  7  5  5  6  5  6  5  5  7  6  5
+  6  6  5 14  7  7  7  5  5  7  5  7  5  5  6  5  6  5  5  6  6  5  6  5
+ 14  7  7  7  5  5  7  5  7  5  5  6  5  7  6  5  6  5  5 14  7  7  7  5
+  5  7  5  7  5  5  6  5  6  5  5  7  6  5  6  6  5 14  7  7  7  5  5  7
+  5  7  5  5  6  5  6  5  5  6  6  5  6  5  7  5  5  7  5  7  5  5  6  5
+  7  6  5  7  5  5  5 14  7  7  7  5  5  7  5  7  5  5  6  5  7  6  5  6
+  5  5 14  7  7  7  5  5  7  5  7  5  5  6  5  6  5  5  7  6  5  6  6  5
+ 14  7  7  7  5  5  7  5  7  5  5  6  5  7  6  5  7  5  5  5 14  7  7  7
+  5  5  7  5  7  5  5  6  5  7  6  5  6  5  5 14  7  7  7  5  5  7  5  7
+  5  5  6  5  6  5  5  7  6  5  6  6  5 14  7  7  7  5  5  7  5  7  5  5
+  6  5  6  5  5  7  6  5  6  6  5 14  7  7  7  5  5  7  5  7  5  5  6  5
+  6  5  5  7  6  5  6  6  5 14  7  7  7  5  5  7  5  7  5  5  6  5  6  5
+  5  7  6  5  6  6  5 14  7  7  7  5  5  7  5  7  5  5  6  5  6  5  5  6
+  6  5  6  5 14  7  7  7  5  5  7  5  7  5  5  6  5  7  6  5  6  5  5 14
+  7  7  7  5  5  7  5  7  5  5  6  5  6  5  5  7  6  5  6  6  5 14  7  7
+  7  5  5  7  5  7  5  5  6  5  7  6  5  6  5  5  6  5  5  7  5  5 15  5
+  6  5  5  7  5  5  5  5  6  6  5  5  7  5  5  5  5  5  5  5  7  6  5  5
+  7  5  5  5  5  6  5  5  7  6  5  5  7  5  6  5  5  7  5  5  6  5  5  6
+  6  5  5  7  5  5  5  6  5  5  7  5  7  6  5  5  7  5  6  5  5  7  5  6
+  5  5  7  6  5  5  7  6  5  5  7  5  5  5  5  6  5  5  7  5  6  5  5  7
+  5  5  7  6  6  5  5  7  5  6  5  5  7  5  6  5  5  7  5  5  5  5  6  5
+  5  7  5  5  5  6  5  6  6  6  5  5  7  5  6  5  5  7  5  6  5  5  7  5
+  5  5  7  7  6  5  5  7  5  5  5  5  6  5  5  7  5  5  7  7  6  5  5  7
+  5  6  5  5  7  5  7  5  6  5  5  7  5  6  5  5  7  5  5  5  5  5  5  5
+  6  5  5  7  5  6  5  5  7  5  5  5  5  6  5  5  7  5  5  5  5  5  5  5
+  6  5  5  7  5  7  5  6  5  5  7  5  5  5  5  6  6  5  5  7  5  5  7  6
+  6  5  5  7  5  5  5  7  6  6  5  5  7  5  5  5  6  5  6  6  6  5  5  7
+  5  5  5  7  6  6  5  5  7  5  5  5  5  6  5  5  5  5  5  6  5  5  7  5
+  5  5  6  5  6  6  6  5  5  7  5  6  5  5  7  5  6  5  5  7  5  5  5  6
+  5  5  7  5  5  5  5  6  5  5  7  5  7  5  6  5  5  7  5  7  5  6  5  5
+  7  5  5  5  7  6  6  5  5  7  5  7  5  6  5  5  7  5  5  5  5  6  5  5
+  7  5  5  7  7  6  5  5  7  5  5  5  7  7  6  5  5  7  5  5  5  5  5  5
+  5  6  5  5  7  5  5  5  5  6  6  5  5  7  5  6  5  5  7  5  6  5  5  7
+  5 15  6  5  5  7  5  5  5  7  7  6  5  5  7  5  5  5  5  6  6  5  5  7
+  5  5  5  5  5  5  5  7  6  5  5  7  5  5  6  5  5  6  6  5  5  7  5  5
+  5  5  5  5  5  7  6  5  5  7  5  7  5  6  5  5]
+
+Key: is_ion
+  type: <class 'numpy.ndarray'>
+  dtype: bool
+  shape: (2696,)
+  preview: [False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False]
+
+Key: is_protein
+  type: <class 'numpy.ndarray'>
+  dtype: bool
+  shape: (2696,)
+  preview: [False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True]
+
+Key: is_nucleotide
+  type: <class 'numpy.ndarray'>
+  dtype: bool
+  shape: (2696,)
+  preview: [ True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True False False
+ False False False False False False False False False False  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False]
+
+Key: is_center
+  type: <class 'numpy.ndarray'>
+  dtype: bool
+  shape: (2696,)
+  preview: [False False False False False False False  True False False False False
+ False False False False False False False False False False False False
+ False False False False False  True False False False False False False
+ False False False False False False False False False False False False
+  True False False False False False False False False False False False
+ False False False False False False False False False False  True False
+ False False False False False False False False False False False False
+ False False False False False False  True False False False False False
+ False False False False False False False False False False False False
+ False  True False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False  True False False False
+ False False False False False False False False False False False False
+ False False False  True False False False False False False False False
+ False False False False False False False False False False False False
+ False  True False False False False False False False False False False
+ False False False False False False False False False False  True False
+ False False False False False False False False False False False False
+ False False False False False  True False False False False False False
+ False False False False False False False False False False False False
+ False False False  True False False False False False False False False
+ False False False False False False False False False  True False False
+ False False False False False False False False False False False False
+ False False False False False  True False False False False False False
+ False False False False False False False False False False False False
+  True False False False False False False False False False False False
+ False False False False False False False False False False  True False
+ False False False False False False False False False False False False
+ False False False False False False  True False False False False False
+ False False False False False False False False False False False False
+ False  True False False False False False False False False False False
+ False False False False False False False False False False False  True
+ False False False False False False False False False False False False
+ False False False False False False False False False  True False False
+ False False False False False False False False False False False False
+ False False False False False False False  True False False False False
+ False False False False False False False False False False False False
+ False False False False False  True False False False False False False
+ False False False False False False False False False False False False
+ False False  True False False False False False False False False False
+ False False False False False False False False False  True False False
+ False False False False False False False False False False False False
+ False False False False False False False  True False False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False False False False  True False
+ False False False False False False False False False False  True False
+ False False False False False False  True False False False  True False
+ False False False  True False False False False False False False False
+ False  True False False False False False False  True False False False
+ False False  True False False False False  True False False False False
+  True False False False  True False False False  True False False False
+ False False False False  True False False False False  True False False
+ False False False False False  True False False False False  True False
+ False False False  True False False False False False False False  True
+ False False False False False False False False False False  True False
+ False False False  True False False False False  True False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False False False  True False False
+ False False  True False False False False False False  True False False
+ False False  True False False False False False False False False False
+ False  True False False False False  True False False False False False
+ False False  True False False False False False False False False False
+ False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False False False False  True False
+ False False False False False False False False False  True False False
+ False False False False False False  True False False False False False
+ False False False False False False False False  True False False False
+ False False False False False False False  True False False False False
+  True False False False False  True False False False False False False
+  True False False False False False False False  True False False False
+ False False False  True False False False False False False  True False
+ False False False False False False False  True False False False False
+ False False  True False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False False False  True False False False False False False False False
+ False False  True False False False False False False False False  True
+ False False False False  True False False False False  True False False
+ False False False  True False False False False False False False False
+  True False False False False False False False False  True False False
+ False False False False False False False False False  True False False
+ False False False False False False False  True False False False False
+ False False False False False False False  True False False False False
+ False False  True False]
+
+Key: is_backbone
+  type: <class 'numpy.ndarray'>
+  dtype: bool
+  shape: (2696,)
+  preview: [False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False  True  True  True  True False False False False
+  True  True  True  True False False False False False  True  True  True
+  True False False False False False False False False  True  True  True
+  True False False False False  True  True  True  True  True  True  True
+  True False  True  True  True  True False False False False False False
+  True  True  True  True False False False  True  True  True  True False
+ False  True  True  True  True False  True  True  True  True False  True
+  True  True  True  True  True  True  True  True  True  True  True False
+ False False False  True  True  True  True False  True  True  True  True
+ False False False False  True  True  True  True False  True  True  True
+  True False  True  True  True  True False False False False  True  True
+  True  True False False False False False False False  True  True  True
+  True False  True  True  True  True False  True  True  True  True False
+ False False False False  True  True  True  True False False False False
+  True  True  True  True False False False False  True  True  True  True
+ False  True  True  True  True False False False  True  True  True  True
+ False  True  True  True  True False False False False False False False
+  True  True  True  True False  True  True  True  True False False False
+ False  True  True  True  True False False False False False False False
+  True  True  True  True False False False  True  True  True  True False
+ False False False False  True  True  True  True False False False False
+  True  True  True  True False False False False False  True  True  True
+  True False False False False False False False  True  True  True  True
+ False False False False False  True  True  True  True False False False
+ False False False False False False False  True  True  True  True False
+ False False False False False False  True  True  True  True False  True
+  True  True  True False  True  True  True  True False False False  True
+  True  True  True False False False False  True  True  True  True False
+ False False  True  True  True  True False False False  True  True  True
+  True False False False False False  True  True  True  True False False
+ False  True  True  True  True False False False False  True  True  True
+  True False False False False  True  True  True  True False False False
+ False False  True  True  True  True False False False False False False
+ False  True  True  True  True False False False False False  True  True
+  True  True False  True  True  True  True False  True  True  True  True
+ False False  True  True  True  True False False False False False  True
+  True  True  True False False False False False  True  True  True  True
+ False False False False False False False False  True  True  True  True
+ False False False False False False  True  True  True  True False False
+ False False False False False False  True  True  True  True False False
+ False  True  True  True]
+
+Key: backbone_mask
+  type: <class 'numpy.ndarray'>
+  dtype: bool
+  shape: (2696,)
+  preview: [False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True]
+
+Key: not_pad_mask
+  type: <class 'numpy.ndarray'>
+  dtype: bool
+  shape: (2696,)
+  preview: [ True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True]
+
+Key: interact_non_protein_res
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: ()
+  value: nan
+
+Key: interact_ion_res
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: ()
+  value: nan
+
+Key: interact_nucleotide_res
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: ()
+  value: nan
+
+Key: interact_molecule_res
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: ()
+  value: nan
+
+Key: is_mask
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: ()
+  value: nan
+
+Key: noisy_residue_token
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: ()
+  value: nan
+
+Key: time_step
+  type: <class 'numpy.ndarray'>
+  dtype: float64
+  shape: ()
+  value: nan

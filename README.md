@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ADFLIP: All-atom inverse protein folding through discrete flow matching (ICML2025)
 ![ADFLIP](ADFLIP_f1.png)
 ## Description
@@ -60,19 +60,5 @@ The entire workflow for using ADFLIP can be found the [file](test/design.py). It
 
 - Our codebase for discrete flow matching builds on [Discrete Flow Models](https://github.com/andrew-cr/discrete_flow_models).
 Thanks for open-sourcing!
+- The ADFLIP model is taken from [ADFLIP](https://github.com/ykiiiiii/ADFLIP)
 
-## Citation 
-If you consider our codes and datasets useful, please cite:
-```
-@inproceedings{
-      yi2025allatom,
-      title={All-atom inverse protein folding through discrete flow matching},
-      author={Kai Yi and Kiarash Jamali and Sjors HW Scheres},
-      booktitle={Forty-second International Conference on Machine Learning},
-      year={2025},
-      url={https://openreview.net/forum?id=8tQdwSCJmA}
-      }
-```
-=======
-# FPO
->>>>>>> 8ae9e628137c24873e4ad20532ddb8685ebadfaf

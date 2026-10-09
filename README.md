@@ -1,8 +1,7 @@
 
 # ADFLIP: All-atom inverse protein folding through discrete flow matching (ICML2025)
-![ADFLIP](ADFLIP_f1.png)
-## Description
-Implementation for "All-atom inverse protein folding through discrete flow matching" [Link](https://openreview.net/forum?id=8tQdwSCJmA).
+![ADFLIP](ADFLIP_f1.png) Finetuning using FPO
+
 
 ## Environment Setup
 

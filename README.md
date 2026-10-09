@@ -1,6 +1,5 @@
 
-# ADFLIP: All-atom inverse protein folding through discrete flow matching (ICML2025)
-![ADFLIP](ADFLIP_f1.png) Finetuning using FPO
+FPO Finetuning of ADFLIP (KDD 2026)
 
 
 ## Environment Setup
